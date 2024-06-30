@@ -20,13 +20,13 @@ clang -c main.cpp DLlist.cpp LargeInt.cpp
 ```
 This will generate 3 object files: main.o, DLlist.o LargeInt.o
 
-3. Link the object files into an executable:
+3. ### Link the object files into an executable:
 ```
 g++ -o <name_of_executable> main.o DLlist.o LargeInt.o
 ```
 This will give you an executable with the name you specified
 
-4. Run the program:
+4. ### Run the program:
 ```
 ./<name_of_exececutable>
 ```
